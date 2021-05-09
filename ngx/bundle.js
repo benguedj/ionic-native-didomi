@@ -12,10 +12,10 @@ var Didomi = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Didomi.prototype.shareConsent = function () { return core.cordova(this, "shareConsent", {}, arguments); };
-    Didomi.pluginName = "DidomiSDK";
-    Didomi.plugin = "cordova-plugin-didomisdk";
+    Didomi.pluginName = "Didomi";
+    Didomi.plugin = "cordova-plugin-didomi";
     Didomi.pluginRef = "navigator.didomi";
-    Didomi.repo = "https://github.com/benguedj/cordova-plugin-didomisdk";
+    Didomi.repo = "https://github.com/benguedj/cordova-plugin-didomi";
     Didomi.install = "";
     Didomi.installVariables = [];
     Didomi.platforms = ["Android", "iOS"];
