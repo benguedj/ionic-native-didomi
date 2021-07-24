@@ -17,7 +17,7 @@ var DidomiOriginal = /** @class */ (function (_super) {
     function DidomiOriginal() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    DidomiOriginal.prototype.shareConsent = function () { return cordova(this, "shareConsent", {}, arguments); };
+    DidomiOriginal.prototype.injectConsent = function () { return cordova(this, "injectConsent", {}, arguments); };
     DidomiOriginal.pluginName = "Didomi";
     DidomiOriginal.plugin = "cordova-plugin-didomi";
     DidomiOriginal.pluginRef = "navigator.didomi";

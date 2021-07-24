@@ -25,5 +25,5 @@ export declare class Didomi extends IonicNativePlugin {
      * This function does something
      * @return {Promise<string>} Returns a promise that resolves when something happens
      */
-    shareConsent(): Promise<string>;
+    injectConsent(): Promise<string>;
 }
